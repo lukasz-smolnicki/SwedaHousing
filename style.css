@@ -30,7 +30,8 @@ body {
   font-weight: 700;
   font-size: .9rem;
   letter-spacing: .1rem;
-  background-color: rgba(0, 0, 0, 1) !important;
+  /* background-color: rgba(0, 0, 0, 1) !important; */
+  background-color: #231f20;
 }
 
 .navbar-brand img {
