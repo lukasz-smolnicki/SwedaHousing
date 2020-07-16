@@ -236,6 +236,11 @@ hr.socket {
   margin-top: 3rem;
 }
 
+.partners img {
+  width: 50%;
+  border-radius: 100%;
+}
+
 /* Media Queries */
 
 @media (max-width: 767px) {
@@ -260,6 +265,12 @@ hr.socket {
   }
 
   .clients img {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .partners img {
     max-width: 50%;
     display: block;
     margin: 0 auto;
