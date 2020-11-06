@@ -15,8 +15,8 @@ body {
 .offset:before {
   display: block;
   content: "";
-  height: 4rem;
-  margin-top: -4rem;
+  height: 6rem;
+  margin-top: -6rem;
 }
 
 /* Navigation */
