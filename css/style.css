@@ -68,7 +68,7 @@ body {
     height: 100%;
     background-size: cover;
     background-position: center center;
-    background-image: url(/assets/images/home/header.jpeg);
+    background-image: url(/assets/images/home/header3.jpeg);
     filter: brightness(30%);
 }
 
@@ -109,6 +109,26 @@ body {
     height: 25vh;
     object-fit: cover;
 }
+
+/* .card-body {
+    width: 100%;
+    min-height: 10rem;
+    object-fit: cover;
+} */
+
+.card {
+    -webkit-box-shadow: 2rem 0.5rem 4.5rem rgba(0, 0, 0, 0.2);
+            box-shadow: 2rem 0.5rem 4.5rem rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  
+  .card:hover {
+    -webkit-box-shadow: 2rem 0.5rem 4.5rem rgba(0, 0, 0, 0.2);
+            box-shadow: 2rem 0.5rem 4.5rem rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            transform: scale(1.05);
+  }
 
 /* ****************** SERVICES ****************** */
 
@@ -178,9 +198,20 @@ body {
     color: white;
 }
 
-.footer p {
+/* .footer:hover {
+    transform: scale(1.5);
+} */
+
+.footer h2 {
     margin: 0;
     font-style: italic;
+    font-size: 2rem;
+}
+
+.footer p {
+    margin: 0;
+    /* font-style: italic; */
+    font-size: 1.5rem;
 }
 
 .footer img {
